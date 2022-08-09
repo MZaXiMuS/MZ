@@ -33844,15 +33844,21 @@ a.u-link.u-text-hover-grey-90:hover {
 
 /*end-variables sitestylecss*/
 .u-header {
-  background-image: none;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.75), rgba(0,0,0,0.75)), url("images/vacuumcleaner.png");
+  background-position: 50% 50%;
 }
 
 .u-header .u-sheet-1 {
-  min-height: 68px;
+  min-height: 63px;
+}
+
+.u-header .u-text-1 {
+  font-size: 1.5rem;
+  margin: 15px 667px 0 0;
 }
 
 .u-header .u-menu-1 {
-  margin: 22px 0 0 auto;
+  margin: -18px 0 5px auto;
 }
 
 .u-header .u-nav-1 {
@@ -33863,66 +33869,92 @@ a.u-link.u-text-hover-grey-90:hover {
 .u-header .u-nav-2 {
   font-size: 1.25rem;
 }
-
-.u-header .u-text-1 {
-  font-size: 1.5rem;
-  margin: -43px 551px 15px 0;
-}
 @media (max-width: 1199px) {
-  .u-header .u-menu-1 {
-    width: auto;
+  .u-header .u-sheet-1 {
+    min-height: 68px;
   }
 
   .u-header .u-text-1 {
-    margin-top: -43px;
-    margin-right: 351px;
+    margin-top: 15px;
+    margin-right: 467px;
+  }
+
+  .u-header .u-menu-1 {
+    margin-top: -26px;
   }
 }
 @media (max-width: 991px) {
   .u-header .u-text-1 {
-    margin-right: 131px;
+    margin-right: 247px;
   }
 }
 @media (max-width: 767px) {
+  .u-header .u-text-1 {
+    margin-right: 67px;
+  }
+}
+@media (max-width: 575px) {
+  .u-header .u-sheet-1 {
+    min-height: 90px;
+  }
+
   .u-header .u-text-1 {
     margin-right: 0;
   }
-}
 
+  .u-header .u-menu-1 {
+    margin-top: -52px;
+  }
+}
 .u-footer {
-  background-image: none;
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url("images/vacuumcleaner.png");
+  background-position: 50% 50%;
 }
 
 .u-footer .u-sheet-1 {
-  min-height: 120px;
+  min-height: 142px;
 }
 
 .u-footer .u-text-1 {
-  width: 417px;
-  margin: 49px auto;
+  margin: 91px 15px 29px 708px;
 }
 @media (max-width: 1199px) {
   .u-footer .u-sheet-1 {
-    min-height: 99px;
+    min-height: 117px;
+  }
+
+  .u-footer .u-text-1 {
+    width: 417px;
+    margin-left: 523px;
+    margin-right: 0;
   }
 }
 @media (max-width: 991px) {
   .u-footer .u-sheet-1 {
-    min-height: 76px;
+    min-height: 90px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-left: 303px;
   }
 }
 @media (max-width: 767px) {
   .u-footer .u-sheet-1 {
-    min-height: 57px;
+    min-height: 68px;
+  }
+
+  .u-footer .u-text-1 {
+    margin-left: 123px;
   }
 }
 @media (max-width: 575px) {
   .u-footer .u-sheet-1 {
-    min-height: 36px;
+    min-height: 43px;
   }
 
   .u-footer .u-text-1 {
     width: 340px;
+    margin-left: 0;
   }
 }
 

@@ -1,0 +1,93 @@
+.u-section-1 {
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.8), rgba(0,0,0,0.8)), url("images/ChessM21codepart.png");
+  background-position: 50% 50%;
+}
+
+.u-section-1 .u-sheet-1 {
+  min-height: 500px;
+}
+
+.u-section-1 .u-text-1 {
+  margin: 20px 768px 0 0;
+}
+
+.u-section-1 .u-text-2 {
+  margin: 0 406px 0 83px;
+}
+
+.u-section-1 .u-btn-1 {
+  background-image: none;
+  padding: 0;
+}
+
+.u-section-1 .u-text-3 {
+  margin: 0 740px 60px 83px;
+}
+
+@media (max-width: 1199px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 412px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 568px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 289px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 540px;
+  }
+}
+
+@media (max-width: 991px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 316px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 348px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 69px;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 320px;
+  }
+}
+
+@media (max-width: 767px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 237px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 168px;
+  }
+
+  .u-section-1 .u-text-2 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 140px;
+  }
+}
+
+@media (max-width: 575px) {
+  .u-section-1 .u-sheet-1 {
+    min-height: 149px;
+  }
+
+  .u-section-1 .u-text-1 {
+    margin-right: 0;
+  }
+
+  .u-section-1 .u-text-3 {
+    margin-right: 0;
+  }
+}
