@@ -33924,9 +33924,8 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-1 {
-    width: 417px;
-    margin-left: 523px;
     margin-right: 0;
+    margin-left: 523px;
   }
 }
 @media (max-width: 991px) {
@@ -33953,7 +33952,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 
   .u-footer .u-text-1 {
-    width: 340px;
     margin-left: 0;
   }
 }
