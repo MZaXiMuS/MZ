@@ -9,6 +9,11 @@
 
 .u-section-1 .u-text-1 {
   margin: 1px 20px 0;
+  transform: rotate(360deg) translate(0px, 0px) scale(1.1, 1.1) skew(1deg, 0deg);
+  text-shadow: 5px 0px 0px rgba(0, 0, 0, 0.3);
+  animation: cssAnimation_0 2357ms infinite ease-out;
+  font: normal normal 33px/1.2 "Brush Script";
+  letter-spacing: 10px;
 }
 
 .u-section-1 .u-btn-1 {
@@ -412,5 +417,15 @@
   .u-section-2 .u-gallery-1 {
     height: 2135px;
     margin-right: initial;
+  }
+}
+
+@keyframes cssAnimation_0 {
+  from {
+    transform: rotate(360deg) translate(0px, 0px) scale(1.1, 1.1) skew(1deg, 0deg);
+  }
+
+  to {
+    transform: rotate(1deg) translate(0px, 0px);
   }
 }
